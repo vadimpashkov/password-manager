@@ -1,0 +1,13 @@
+.button {
+	--color: #fff;
+	--bg-color: #292929;
+
+	box-sizing: border-box;
+
+	cursor: pointer;
+}
+
+.button:disabled {
+	opacity: 0.3;
+	cursor: default;
+}

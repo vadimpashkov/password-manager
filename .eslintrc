@@ -1,0 +1,27 @@
+// TODO: Настроить правила https://eslint.org/docs/latest/rules/
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": ["prettier"],
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint", "prettier"],
+	"rules": {
+		// Rules
+		"prefer-const": "error",
+		"no-unused-vars": "error",
+		"eqeqeq": "error",
+		"curly": "error",
+		"no-useless-constructor": "error",
+		"max-params": ["error", 3],
+		"eol-last": "error",
+		"max-len": ["error", 120],
+		"arrow-body-style": ["error", "as-needed"],
+
+		// Plugins
+		"prettier/prettier": "error",
+		"@typescript-eslint/no-explicit-any": "warn",
+		"@typescript-eslint/explicit-module-boundary-types": "error"
+	}
+}

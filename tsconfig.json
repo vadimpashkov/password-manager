@@ -1,0 +1,8 @@
+{
+  "include": ["src", "./src/@types"],
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "react-jsx",
+    "skipLibCheck": true
+  }
+}
